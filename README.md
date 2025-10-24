@@ -1,3 +1,5 @@
+# 5) E-Collecting mittels einfacher digitaler Signatur
+
 ## Approach
 
 Gegenüber einer digitalen Identität gibt es grosses Misstrauen in der Bevölkerung. Der Vorschlag soll untersuchen, ob es Ansätze gibt, ein E-Collecting mittels einer einfachen elektronischer Signatur zu betreiben. Darunter wird eine Unterschrift verstanden, welche mittels Maus oder Touchscreen erstellt wird. Dabei soll der Ablauf möglichst nahe am Papierprozess angesiedelt sein. Die Unterzeichnung soll weiterhin niederschwellig sein, dadurch wird ein Missbrauch möglich. Um diesen möglichst tief zu halten, wird der Bürger auf dem Postweg über seine Willensbekundung informiert.
