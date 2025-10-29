@@ -21,6 +21,8 @@ Unterschriften können digital einfach abgegeben werden, dies ist aber auch auf 
 
 ## Topics addressed
 
+| Topic | (How) is it addressed? |
+| - | ------- |
 | 1 | Erstellung eines Mockup der E-Collecting Plattform |
 | 2 | Konzept der Veröffentlichungspraxis der eingereichten Unterschriften |
 | 3 | Konzept von Sammelgruppen |
@@ -31,7 +33,6 @@ Unterschriften können digital einfach abgegeben werden, dies ist aber auch auf 
 | 8 | Papier- und Digitalprozess werden vor der Beglaubigung zusammengeführt |
 | 9 | Beglaubigungsprozess mittels Web Plattform oder Schnittstelle |
 | 10 | offen |
-
 
 ## Team Members
 
