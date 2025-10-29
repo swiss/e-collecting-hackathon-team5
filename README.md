@@ -19,6 +19,20 @@ Der Papier-/ und elektronische Prozess werden möglichst rasch zusammengeführt.
 ### Weaknesses:
 Unterschriften können digital einfach abgegeben werden, dies ist aber auch auf dem Papierweg möglich. Dies kann zu Missbrauch führen. Durch die Angabe des Geburtsdatum ist eine grossflächige Manipulation aber nur möglich, wenn man sich illegal entsprechende Daten beschafft hat. Es entstehen jährliche Kosten für den Briefversand für die Bestätigung der Unterzeichnung.
 
+## Topics addressed
+
+| 1 | Erstellung eines Mockup der E-Collecting Plattform |
+| 2 | Konzept der Veröffentlichungspraxis der eingereichten Unterschriften |
+| 3 | Konzept von Sammelgruppen |
+| 4 | Konzept von Argumenten der Sammelgruppen |
+| 5 | Digitale Bescheinigung der Unerschriften |
+| 6 | offen |
+| 7 | Beibehaltung des Status Quo |
+| 8 | Papier- und Digitalprozess werden vor der Beglaubigung zusammengeführt |
+| 9 | Beglaubigungsprozess mittels Web Plattform oder Schnittstelle |
+| 10 | offen |
+
+
 ## Team Members
 
 - [Urs Lang] (https://github.com/urs-lang)
