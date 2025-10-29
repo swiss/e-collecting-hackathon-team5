@@ -24,9 +24,9 @@ Unterschriften können digital einfach abgegeben werden, dies ist aber auch auf 
 | Topic | (How) is it addressed? |
 | - | ------- |
 | 1 | Erstellung eines Mockup der E-Collecting Plattform |
-| 2 | Konzept der Veröffentlichungspraxis der eingereichten Unterschriften |
-| 3 | Konzept von Sammelgruppen |
-| 4 | Konzept von Argumenten der Sammelgruppen |
+| 2 | Sammelgruppen haben Zugriff Statistik der eingereichten Unterschriften |
+| 3 | Sammelgruppen melden sich beim Initiativkomitee bzw. BK bei einem Referendum, jede Sammelgruppe erhält eine Landingpage |
+| 4 | Jede Sammelgruppen erhält auf ihrer Landingpage Platz für ihr Argumentarium |
 | 5 | Digitale Bescheinigung der Unerschriften |
 | 6 | offen |
 | 7 | Beibehaltung des Status Quo |
