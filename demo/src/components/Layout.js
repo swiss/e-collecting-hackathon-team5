@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useLanguage } from '../contexts/LanguageContext';
 import './Layout.css';
 
 const Layout = ({ children }) => {
   const location = useLocation();
+  const { language, setLanguage } = useLanguage();
+  
+  const languages = ['DE', 'FR', 'IT', 'RM', 'EN'];
   
   return (
     <div className="layout">
@@ -28,11 +32,16 @@ const Layout = ({ children }) => {
           </div>
         </div>
         <div className="lang-bar">
-          <div className="lang-active">DE</div>
-          <div>FR</div>
-          <div>IT</div>
-          <div>RM</div>
-          <div>EN</div>
+          {languages.map(lang => (
+            <div 
+              key={lang} 
+              className={language === lang ? 'lang-active' : ''}
+              onClick={() => setLanguage(lang)}
+              style={{ cursor: 'pointer' }}
+            >
+              {lang}
+            </div>
+          ))}
         </div>
         <div className="search-bar">
           <input type="text" placeholder="Suchen" />
