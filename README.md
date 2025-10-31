@@ -22,10 +22,6 @@ Unterschriften können digital einfach abgegeben werden, dies ist aber auch auf 
 ### Ablauf
 
 ```mermaid
----
-config:
-  theme: redux
----
 flowchart TD
     A(["Sofa"]) --> B{" "}
     B --> C["Unterzeichnet auf ecollect.admin.ch"]
