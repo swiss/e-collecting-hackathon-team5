@@ -49,6 +49,31 @@ flowchart TD
 
 
 
+### User Journey "Digitale Unterzeichnung"
+
+```mermaid
+---
+config:
+  theme: redux
+---
+flowchart TD
+    A(["Start"]) --> n1["Übersicht mit den verschiedenen laufenden Initiativen und Referenden"]
+    n1 --> n2@{ label: "<span style=\"color:\">Auswahl des Referendums/der Initiative</span><span style=\"forced-color-adjust:\"></span>" }
+    n2 --> n3@{ label: "<span style=\"color:\">Spam Protection</span>" }
+    n3 --> n4@{ label: "<span style=\"color:\">Einblendung StGB</span><div style=\"forced-color-adjust:\">Art. 281 und 282</div>" }
+    n4 --> n5@{ label: "<span style=\"color:\">füllt Formular mit pers. Angaben aus</span>" }
+    n5 --> n6@{ label: "<span style=\"color:\">unterzeicnet mit Maus/Touchscreen</span>" }
+    n2@{ shape: rect}
+    n3@{ shape: rect}
+    n4@{ shape: rect}
+    n5@{ shape: rect}
+    n6@{ shape: rect}
+```
+
+
+
+
+
 
 ## Topics addressed
 
