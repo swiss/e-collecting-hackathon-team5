@@ -19,6 +19,41 @@ Der Papier-/ und elektronische Prozess werden möglichst rasch zusammengeführt.
 ### Weaknesses:
 Unterschriften können digital einfach abgegeben werden, dies ist aber auch auf dem Papierweg möglich. Dies kann zu Missbrauch führen. Durch die Angabe des Geburtsdatum ist eine grossflächige Manipulation aber nur möglich, wenn man sich illegal entsprechende Daten beschafft hat. Es entstehen jährliche Kosten für den Briefversand für die Bestätigung der Unterzeichnung.
 
+### Ablauf
+
+```mermaid
+---
+config:
+  theme: redux
+---
+flowchart TD
+    A(["Sofa"]) --> B{" "}
+    B --> C["Unterzeichnet auf ecollect.admin.ch"]
+    n4(["Kampgenseite/mailing etc."]) --> B
+    n2["Strasse Digital"] --> B
+    n5["Unterschrift auf Papier"] --> n6["Einsenden an Bundeskanzlei"]
+    n6 --> n7["Scannen"]
+    n7 --> n8["Ablegen in Datenbank"]
+    n8 --> n9[" "]
+    n9 --> n10["Freigabe zur Bescheinigung"]
+    C --> n9
+    n10 --> n11["Gemeindemitarbeiter bescheinigt die Unterschrift(en)"]
+    n11 --> n12["Versand einer Bestätigung an jeden 1./5./10. (tbd) Unterzeichnenden per Brief"]
+    n12 --> n13["Ausdruck des Bogens durch BK"]
+    n13 --> n14["BK löscht Datenbank und archiviert die physischen Bögen"]
+    n2@{ shape: rounded}
+    n5@{ shape: rounded}
+    n6@{ shape: rect}
+    n7@{ shape: rect}
+    n9@{ shape: diam}
+    n11@{ shape: rect}
+    n12@{ shape: rect}
+    n13@{ shape: rect}
+```mermaid
+
+
+
+
 ## Topics addressed
 
 | Topic | (How) is it addressed? |
@@ -37,6 +72,6 @@ Unterschriften können digital einfach abgegeben werden, dies ist aber auch auf 
 ## Team Members
 
 - [Urs Lang] (https://github.com/urs-lang)
-- 
-- 
-- 
+- [Pascal Fouquet]
+- [Oleg Oleg Lavrovsky]
+
