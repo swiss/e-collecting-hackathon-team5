@@ -35,7 +35,7 @@ flowchart TD
     n6 --> n7["Scannen"]
     n7 --> n8["Ablegen in Datenbank"]
     n8 --> n9[" "]
-    n9 --> n10["Freigabe zur Bescheinigung"]
+    n9 --> n10["Freigabe zur Bescheinigung / Übermittelung mittels Sedex an die Gemeinde"]
     C --> n9
     n10 --> n11["Gemeindemitarbeiter bescheinigt die Unterschrift(en)"]
     n11 --> n12["Versand einer Bestätigung an jeden 1./5./10. (tbd) Unterzeichnenden per Brief"]
