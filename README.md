@@ -124,6 +124,10 @@ Aus Kostengründen könnte auch nur einer Stichprobe aus den total eingesendeten
 [Live Demo](https://ecollectdemo.vercel.app/)
 
 
+## Präsentation
+
+[Präsentation](Praesentation.pdf)
+
 
 ## Topics addressed
 
