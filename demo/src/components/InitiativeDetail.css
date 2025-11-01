@@ -216,13 +216,12 @@
 .signature-wrapper {
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: white;
+  background-color: #eee;
   overflow: hidden;
 }
 
 .signature-canvas {
   display: block;
-  width: 100%;
   cursor: crosshair;
   background-color: white;
 }
@@ -653,7 +652,7 @@
   }
   
   .signature-canvas-section .signature-wrapper canvas {
-    width: 100% !important;
+    /*width: 100% !important;*/
   }
 
   .feedback-modal {
