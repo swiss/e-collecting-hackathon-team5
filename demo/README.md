@@ -7,15 +7,15 @@ This is a digital signature platform for Swiss popular initiatives, modeled afte
 - **Initiative List**: View all 10 pending popular initiatives currently in the collection stage
 - **Digital Signature**: Sign initiatives using mouse/trackpad on a canvas
 - **Form Validation**: Collect required personal information (name, address, birth date)
-- **reCAPTCHA**: Bot protection using Google reCAPTCHA
-- **Government Design**: Authentic Swiss Federal Chancellery styling
+- **Spam Protection**: Open source captcha
+- **Government Design**: Referencing the [Swiss Style Guide](https://github.com/swiss/designsystem)
 
 ## Tech Stack
 
-- React 19.2.0
+- React 19
 - React Router DOM - for navigation
 - react-signature-canvas - for digital signature capture
-- react-google-recaptcha - for bot protection
+- [cap.js](https://capjs.js.org/) - for bot protection
 
 ## Getting Started
 
