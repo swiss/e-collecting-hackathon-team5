@@ -19,9 +19,13 @@ Der Papier-/ und elektronische Prozess werden möglichst rasch zusammengeführt.
 ### Weaknesses:
 Unterschriften können digital einfach abgegeben werden, dies ist aber auch auf dem Papierweg möglich. Dies kann zu Missbrauch führen. Durch die Angabe des Geburtsdatum ist eine grossflächige Manipulation aber nur möglich, wenn man sich illegal entsprechende Daten beschafft hat. Es entstehen jährliche Kosten für den Briefversand für die Bestätigung der Unterzeichnung.
 
-### Ablauf
+## Ablauf
 
 ```mermaid
+---
+config:
+  theme: redux
+---
 flowchart TD
     A(["Sofa"]) --> B{" "}
     B --> C["Unterzeichnet auf ecollect.admin.ch"]
@@ -49,7 +53,7 @@ flowchart TD
 
 
 
-### User Journey "Digitale Unterzeichnung"
+## User Journey "Digitale Unterzeichnung"
 
 ```mermaid
 ---
@@ -71,7 +75,11 @@ flowchart TD
 ```
 
 
+## Demo
 
+[Dokumentation](demo/README.md)
+
+[Live Demo](https://ecollectdemo.vercel.app/)
 
 
 
@@ -94,6 +102,6 @@ flowchart TD
 
 - [Urs Lang] (https://github.com/urs-lang)
 - [Pascal Fouquet]
-- [Oleg Oleg Lavrovsky]
-- [Rachel ]
+- [Oleg Lavrovsky]
+- [Rachel]
 
