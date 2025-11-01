@@ -66,7 +66,7 @@ flowchart TD
     n2 --> n3@{ label: "<span style=\"color:\">Spam Protection</span>" }
     n3 --> n4@{ label: "<span style=\"color:\">Einblendung StGB</span><div style=\"forced-color-adjust:\">Art. 281 und 282</div>" }
     n4 --> n5@{ label: "<span style=\"color:\">füllt Formular mit pers. Angaben aus</span>" }
-    n5 --> n6@{ label: "<span style=\"color:\">unterzeicnet mit Maus/Touchscreen</span>" }
+    n5 --> n6@{ label: "<span style=\"color:\">unterzeichnet mit Maus/Touchscreen</span>" }
     n2@{ shape: rect}
     n3@{ shape: rect}
     n4@{ shape: rect}
