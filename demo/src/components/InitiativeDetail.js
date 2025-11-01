@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import SignatureCanvas from 'react-signature-canvas';
-import ReCAPTCHA from 'react-google-recaptcha';
+import { CapWidget } from "@better-captcha/react/provider/cap-widget";
 import { initiatives } from '../data/initiatives';
 import { swissCantons } from '../data/swissCantons';
 import { downloadInitiativePDF, generatePDFDataURL } from '../utils/pdfGenerator';
@@ -411,13 +411,22 @@ const InitiativeDetail = () => {
             </div>
           </div>
 
-          {/* reCAPTCHA */}
+          {/* CAPTCHA */}
           <div className="captcha-section">
-            <ReCAPTCHA
-              ref={recaptchaRef}
-              sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-              onChange={handleCaptchaVerify}
-            />
+              <CapWidget
+                endpoint="https://captcha.gurl.eu.org/api/"
+                options={{
+                  'cap-hidden-field-name': "test-endpoint"
+                }}
+                onsolve={(token) => {
+                    console.log(`Challenge succeeded, token : ${token}`);
+                    handleCaptchaVerify(true);
+                }}
+                onerror={() => {
+                    console.log(`Challenge failed`);
+                    handleCaptchaVerify(true); // TODO: false!
+                }}
+              />
           </div>
 
           {/* Submit Button */}
